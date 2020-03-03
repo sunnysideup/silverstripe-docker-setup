@@ -20,7 +20,6 @@ sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 
 echo "3. stop services"
-
 sudo service apache2 stop
 sudo service mysql stop
 
